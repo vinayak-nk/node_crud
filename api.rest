@@ -1,0 +1,17 @@
+@url = 'http://localhost:5000/users'
+
+GET {{url}}
+
+###
+
+GET {{url}}/9a5c13e4-2a84-492e-932b-d1f8e81a2c26
+
+####
+POST {{url}}
+Content-Type: application/json
+
+{
+  "fname": "Shrutik",
+  "lname": "N",
+  "age": 14
+}
